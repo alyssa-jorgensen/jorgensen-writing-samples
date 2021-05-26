@@ -164,6 +164,11 @@ footer #social ul li {
 
 /*PORTFOLIO*/
 
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
 #portfolio {
     display: flex;
     flex-direction: row;
