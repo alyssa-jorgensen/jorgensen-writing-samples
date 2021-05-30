@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: 600;
 }
 
@@ -167,15 +167,10 @@ footer #social ul li {
 #portfolio {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-#articles {
-    margin:10px;
-    padding: 15px;
-}
-
-#scripts {
+#script {
     margin:10px;
     padding: 15px;
 }

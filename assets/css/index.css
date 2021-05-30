@@ -6,7 +6,7 @@ html {
 }
 
 p {
-
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: 600;
 }
 
@@ -167,25 +167,13 @@ footer #social ul li {
 #about {
     display: flex;
     flex-direction: row;
-}
-
-#portfolio {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#articles {
-    margin:10px;
-    padding: 15px;
-}
-
-#scripts {
-    margin:10px;
-    padding: 15px;
+    padding: 10px;
+    margin: 15px;
 }
 
 #portrait {
     width: 400px;
     height: 550px;
+    padding: 10px;
+    margin: 15px;
 }

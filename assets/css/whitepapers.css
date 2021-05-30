@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: 600;
 }
 
@@ -170,12 +170,7 @@ footer #social ul li {
     justify-content: center;
 }
 
-#articles {
-    margin:10px;
-    padding: 15px;
-}
-
-#scripts {
+#article {
     margin:10px;
     padding: 15px;
 }
