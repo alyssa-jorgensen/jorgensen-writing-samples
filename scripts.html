@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+    <script type="text/javascript">
+        // PASSWORD PROTECTION SCRIPT
+        
+        function TheLogin() {
+        
+        var password = 'eclosion';
+        
+        if (this.document.login.pass.value == password) {
+          top.location.href="correct.html";
+        }
+        else {
+          window.alert("Incorrect password, please try again.");
+          }
+        }
+        
+        </script>
+        
     <head>
         <title>Alyssa Jorgensen's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/scripts.css"/>
